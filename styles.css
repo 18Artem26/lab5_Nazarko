@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Comic Sans MS", cursive;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('novogodnie-oboi-2018.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #f4f4f4;
+    padding: 60px 30px;
+}
+
+.wrapper h1 {
+    font-size: 56px;
+    color: blue;
+    font-family: "Caveat", cursive;
+    text-transform: uppercase; /* Додаємо трансформацію великих літер */
+    margin-bottom: 20px; /* Додаємо відступ знизу для віддачі */
+}
+
+.countdown_timer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.timer {
+    padding: 20px;
+    margin: 20px;
+    background: #d80056;
+    box-shadow: 2px 2px 120px #ffffff;
+    border-radius: 8px;
+    min-width: 100px;
+}
+
+.timer p {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.timer h2 {
+    font-size: 3em;
+    margin: 0;
+    color: rgb(109, 247, 11);
+}
